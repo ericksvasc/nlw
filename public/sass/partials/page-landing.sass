@@ -1,0 +1,111 @@
+@import ../plugins/plugins
+#page-landing
+    background-color: $primary
+    #container
+        
+        .buttons-container
+            display: flex
+            justify-content: center
+            margin: 3.2rem 0
+            a
+                width: 30rem
+                height: 10.4rem
+                border-radius: 0.8rem
+                font: 700 2.4rem Archivo
+                //margin-right: 1.6rem
+                display: flex
+                align-items: center
+                justify-content: center
+                text-decoration: none
+                color: $color-button-text
+                transition: background 0.2s
+                img
+                    width: 4rem
+                    margin-right: 2.4rem
+            .study
+                margin-right: 1.6rem
+        
+        .total-connections
+            font-size: 2rem
+            display: flex
+            align-items: center
+            justify-content: center
+            color: $color-text-complement
+            img
+                margin-left: 0.8rem
+
+    a.study
+        background: $color-primary-lighter
+    a.study:hover
+        background: $color-primary-light
+    a.give-classes
+        background: $color-secondary
+        margin-right: 0
+    a.give-classes:hover
+        background: $color-secondary-dark
+        .logo-container
+            img
+                //margin-top: 5rem
+        color: $textprimary
+        
+.logo-container
+    text-align: center
+    margin-bottom: 3.2rem
+    h2
+        font: 500 3rem Poppins
+        line-height: 4.6rem
+        margin-top: 0.8rem
+        color: $color-text-complement
+    img
+        height: 10rem
+#page-landing
+    #container
+        img.hero-img
+            width: 100%
+
+
+
+
+
+    
+
+
+@media (min-width: 699px)
+    .logo-container
+        h2
+            font-size: 3.6rem
+@media (min-width: 1100px)
+    #page-landing 
+        #container
+            //.header-top
+            max-width: 1100px
+            display: grid
+            grid-template-columns: 2fr 1fr 2fr
+            grid-template-rows: 350px 1fr
+            grid-template-areas: "proffy img img" "button button texting"
+            gap: 86px
+            .logo-container
+                grid-area: proffy
+                text-align: initial
+                align-self: center
+                margin: 0
+                //padding: 0
+                h2
+                    font-size: 3.6rem
+                img
+                    height: 100%
+            .hero-img
+                grid-area: img
+                height: 350px
+            .buttons-container
+                grid-area: button
+                justify-content: flex-start
+                margin: 0
+            .total-connections
+                grid-area: texting
+                justify-self: end
+                font-size: 1.5rem
+                //color:  $color-line-in-white
+
+
+     

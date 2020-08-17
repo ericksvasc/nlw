@@ -1,0 +1,32 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericksvasc/nlw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericksvasc/nlw/issues"
+  },
+  "homepage": "https://github.com/ericksvasc/nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "gulp-watch": "^5.0.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
